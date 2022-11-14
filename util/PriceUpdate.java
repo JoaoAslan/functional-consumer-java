@@ -4,6 +4,7 @@ import aula4.entities.Product;
 
 import java.util.function.Consumer;
 
+//https://docs.oracle.com/javase/10/docs/api/java/util/function/Consumer.html
 public class PriceUpdate implements Consumer<Product> {
 
     @Override
